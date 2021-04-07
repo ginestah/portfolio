@@ -18,7 +18,7 @@
   margin-right: 25px;
   font-size: 1.5em;
   font-weight: 500;
-  color: rgb(254, 252, 237);
+  color: #fefced;
   text-decoration: none;
   align-self: flex-end;
 }
@@ -29,7 +29,7 @@
   margin-left: 25px;
   font-weight: 500;
   text-decoration: none;
-  color: rgb(254, 252, 237);
+  color: #fefced;
 }
 .sub-heading {
   background-color: rgb(40, 40, 40);
