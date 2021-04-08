@@ -21,6 +21,7 @@
   color: #fefced;
   text-decoration: none;
   align-self: flex-end;
+  cursor: pointer;
 }
 
 .logo {

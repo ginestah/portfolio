@@ -1,17 +1,18 @@
 import "./App.css";
-import Layout from "./shared/Layout/Layout";
 import { Route } from "react-router-dom";
-import { useState } from "react";
+
+import Layout from "./shared/Layout/Layout";
 import AboutMe from "./screens/AboutMe";
-import { Transition } from "react-transition-group";
+import Contact from "./screens/Contact";
 
 function App() {
   return (
-    <Layout>
-      <div className="App">
+    <div className="App">
+      <Layout>
         <Route exact path="/about" component={AboutMe} />
-      </div>
-    </Layout>
+        <Route exact path="/contact" component={Contact} />
+      </Layout>
+    </div>
   );
 }
 

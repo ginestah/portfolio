@@ -1,15 +1,16 @@
-import { CSSTransition } from "react-transition-group";
-import { useState } from "react";
-import Layout from "../shared/Layout/Layout";
+import "./AboutMe.css";
 
 export default function AboutMe() {
-  const [isVisible, setIsVisible] = useState(false);
   return (
-    <Layout>
-      <CSSTransition in={isVisible} timeout={300} classNames="sample">
-        <div className="heck">I am a fade transition</div>
-      </CSSTransition>
-      <button onClick={() => setIsVisible(!isVisible)}>Click</button>
-    </Layout>
+    <div className="about-me-container">
+      <h1 className="title">Hey! My name is Huck.</h1>
+      <h2 className="sub-title">I am a Software Engineer and Rock Climber.</h2>
+      <main className="about-me">
+        With a background in biology and climbing instruction, I bring a
+        detail-oriented, driven, and communicative personality to the table. I
+        leverage my experience in teaching and science to break down
+        information, teach complex ideas and effectively test and troubleshoot.
+      </main>
+    </div>
   );
 }

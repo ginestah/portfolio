@@ -1,0 +1,16 @@
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  border-top: solid 2px #8a9496;
+  color: #fefced;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 1.2em;
+}
+footer a {
+  text-decoration: none;
+  color: #fefced;
+}
