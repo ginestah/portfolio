@@ -2,7 +2,8 @@ import "./App.css";
 import { Route } from "react-router-dom";
 
 import Layout from "./shared/Layout/Layout";
-import AboutMe from "./screens/AboutMe";
+import AboutMe from "./screens/AboutMe/AboutMe";
+import Projects from "./screens/Projects";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Layout>
         <Route exact path="/" component={AboutMe} />
         {/* <Route exact path="/contact" component={Contact} /> */}
+        <Route exact path="/projects" component={Projects} />
       </Layout>
     </div>
   );

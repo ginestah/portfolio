@@ -9,6 +9,7 @@ footer {
   justify-content: space-around;
   align-items: center;
   font-size: 1.2em;
+  background-color: #8a9496;
 }
 footer a {
   text-decoration: none;
