@@ -13,8 +13,17 @@
 .modal {
   border-radius: 5px;
   border: 1px solid black;
-  background: white;
+  background-color: #8a9496;
   padding: 30px;
   width: 60vw;
   height: 60vh;
+  z-index: 4;
+}
+.contact-form input,
+textarea {
+  width: 100%;
+  font-size: larger;
+}
+.contact-form input {
+  min-height: 20px;
 }
