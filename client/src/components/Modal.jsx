@@ -33,9 +33,11 @@ export default function Modal(props) {
   }
   const { handleOpen } = props;
   return (
-    <div className="modal-container" onClick={(e) => handleOpen(false)}>
+    <div className="modal-container" onClick={() => handleOpen(false)}>
       <div className="modal" onClick={(e) => e.stopPropagation()}>
-        <div className="x">X</div>
+        <div className="x" onClick={() => handleOpen(false)}>
+          ❎
+        </div>
         <form
           className="contact-form"
           onSubmit={(e) => {

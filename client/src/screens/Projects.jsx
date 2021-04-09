@@ -52,8 +52,8 @@ export default function Projects() {
       repo: "https://github.com/ginestah/CrashPad",
       photos: [
         "https://res.cloudinary.com/dpbzq29kr/image/upload/v1617983293/Portfolio/Screen_Shot_2021-04-09_at_11.47.54_AM_rwygwl.png",
-        "https://res.cloudinary.com/dpbzq29kr/image/upload/v1617983295/Portfolio/Screen_Shot_2021-04-09_at_11.47.35_AM_emozsk.png",
-        "https://res.cloudinary.com/dpbzq29kr/image/upload/v1617983296/Portfolio/Screen_Shot_2021-04-09_at_11.46.48_AM_orbpor.png",
+        "https://res.cloudinary.com/dpbzq29kr/image/upload/v1617990998/Portfolio/Screen_Shot_2021-04-09_at_1.55.54_PM_ryor9f.png",
+        "https://res.cloudinary.com/dpbzq29kr/image/upload/c_scale,w_1041/v1617983295/Portfolio/Screen_Shot_2021-04-09_at_11.47.35_AM_emozsk.png",
       ],
     },
   ];

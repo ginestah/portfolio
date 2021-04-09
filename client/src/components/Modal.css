@@ -1,5 +1,4 @@
 .modal-container {
-  position: absolute;
   top: 0;
   left: 0;
   height: 140vh;
@@ -12,6 +11,7 @@
   /* align-items: center; */
 }
 .modal {
+  position: absolute;
   border-radius: 5px;
   border: 1px solid black;
   background-color: #8a9496;
@@ -19,6 +19,8 @@
   width: 60vw;
   height: 60vh;
   z-index: 4;
+  display: flex;
+  flex-direction: column;
 }
 .contact-form input,
 textarea {
@@ -26,14 +28,20 @@ textarea {
   font-size: larger;
 }
 textarea {
+  resize: none;
   width: 100.2%;
 }
 .contact-form input {
   min-height: 20px;
 }
 .x {
-  display: inline-block;
-  content: "\00d7";
+  align-self: flex-end;
   top: 0;
   right: 0;
+  /* border: 1px solid black; */
+  cursor: pointer;
+  font-size: x-large;
+}
+.x:hover {
+  transform: scale(1.2);
 }
