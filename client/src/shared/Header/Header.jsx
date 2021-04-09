@@ -1,9 +1,12 @@
 import "./Header.css";
 import { Link } from "react-router-dom";
 import { useState } from "react";
+import { useMediaPredicate } from "react-media-hook";
 
 import Modal from "../../components/Modal";
 export default function Header() {
+  const smallerThan600 = useMediaPredicate("(max-width: 600px)");
+
   const [open, handleOpen] = useState(false);
   return (
     <>
@@ -17,11 +20,17 @@ export default function Header() {
             <Link className="section-link" to="/projects">
               Projects
             </Link>
-            <Link className="section-link" onClick={() => handleOpen(true)}>
-              Contact
-            </Link>
+            {smallerThan600 ? (
+              <Link className="section-link" to="/contact">
+                Contact
+              </Link>
+            ) : (
+              <Link className="section-link" onClick={() => handleOpen(true)}>
+                Contact
+              </Link>
+            )}
             <a
-              href="https://drive.google.com/file/d/1n1z9XwrZ4RM0-jVsO0Ek_uaEAHgT8MHf/view?usp=sharing"
+              href="https://drive.google.com/file/d/1AARrsN0-mih6aZSI4WQzuZX1JwJbINev/view?usp=sharing"
               target="_blank"
               rel="noreferrer"
               className="section-link"

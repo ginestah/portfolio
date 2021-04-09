@@ -1,9 +1,9 @@
 .App {
   text-align: center;
-  background-color: #50606a;
+  /* background-color: #50606a; */
 }
 body {
-  background-color: #50606a;
+  background-color: #fefced;
 }
 
 .page-enter {

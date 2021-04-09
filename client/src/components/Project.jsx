@@ -34,7 +34,7 @@ export default function Project(props) {
       <img className="image-main" src={pics[0]} alt="" />
       <div className="image-thumbnail-box">{imgJSX}</div>
       <p className="description">{description}</p>
-      <p>Stack: {stack}</p>
+      <p className="description">Stack: {stack}</p>
       <a href={site} target="_blank" rel="noreferrer">
         Live Site
       </a>{" "}

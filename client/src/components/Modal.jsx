@@ -63,6 +63,7 @@ export default function Modal(props) {
           />
           <br />
           <textarea
+            className="desktop-text-area"
             onChange={handleChange}
             name="message"
             cols="30"
