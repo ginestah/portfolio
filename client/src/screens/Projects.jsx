@@ -11,8 +11,8 @@ export default function Projects() {
       site: "https://ginestah.github.io/A-day-in-Space/",
       repo: "https://github.com/ginestah/A-day-in-Space",
       photos: [
-        "https://res.cloudinary.com/dpbzq29kr/image/upload/v1617982804/Portfolio/Screen_Shot_2021-04-09_at_11.38.37_AM_xkixzu.png",
         "https://res.cloudinary.com/dpbzq29kr/image/upload/v1617982805/Portfolio/Screen_Shot_2021-04-09_at_11.39.12_AM_j6plej.png",
+        "https://res.cloudinary.com/dpbzq29kr/image/upload/v1617982804/Portfolio/Screen_Shot_2021-04-09_at_11.38.37_AM_xkixzu.png",
       ],
     },
     {
@@ -59,7 +59,7 @@ export default function Projects() {
   ];
   return (
     <div className="project-container">
-      {projects.map((project, index) => (
+      {projects.reverse().map((project, index) => (
         <Project
           name={project.name}
           description={project.description}
