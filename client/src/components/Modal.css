@@ -27,3 +27,9 @@ textarea {
 .contact-form input {
   min-height: 20px;
 }
+.x {
+  display: inline-block;
+  content: "\00d7";
+  top: 0;
+  right: 0;
+}
