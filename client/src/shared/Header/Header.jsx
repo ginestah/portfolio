@@ -1,12 +1,10 @@
 import "./Header.css";
 import { Link } from "react-router-dom";
-import { useState } from "react";
 // import { useMediaPredicate } from "react-media-hook";
 
 export default function Header(props) {
   // const smallerThan600 = useMediaPredicate("(max-width: 600px)");
 
-  const [open, handleOpen] = useState(false);
   return (
     <>
       <header className="header">
@@ -35,7 +33,6 @@ export default function Header(props) {
           </div>
         </nav>
       </header>
-      {open && <Modal open={open} handleOpen={handleOpen} />}
     </>
   );
 }
