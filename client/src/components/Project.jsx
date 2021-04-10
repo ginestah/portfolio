@@ -1,6 +1,9 @@
 import { useState } from "react";
 import "./Project.css";
+import { useMediaPredicate } from "react-media-hook";
 export default function Project(props) {
+  const smallerThan500 = useMediaPredicate("(max-width:500px)");
+  const largerThan500 = useMediaPredicate("(min-width:500px)");
   const { name, description, stack, site, repo } = props;
   let { photos } = props;
 
@@ -54,9 +57,19 @@ export default function Project(props) {
             Code Repository
           </a>
         </p>
+        {smallerThan500 && (
+          <p className="description">Description: {description}</p>
+        )}
       </div>
-      <p className="description">{description}</p>
-      <p className="description">Stack: {stack}</p>
+      <div>
+        <p className="stack">Stack: {stack}</p>
+        {largerThan500 && (
+          <>
+            <p className="description">Description: {description}</p>
+            <img className="image-main" src={pics[1]} alt="" />
+          </>
+        )}
+      </div>
     </div>
   );
 }

@@ -11,9 +11,10 @@
   object-fit: cover;
   object-position: center;
   border-radius: 15px;
-  box-shadow: 0px 20px 50px 0px;
+  /* box-shadow: 0px 20px 50px 0px; */
   flex-direction: column;
   flex-wrap: nowrap;
+  margin: 20px;
 }
 
 .image-thumbnail-box {
@@ -38,6 +39,7 @@
 .description {
   max-width: 70vw;
   align-self: center;
+  padding: 10px;
 }
 .project-link {
   display: inline;
@@ -45,4 +47,14 @@
 .row {
   display: flex;
   flex-direction: row;
+}
+@media (max-width: 450px) {
+  .image-main {
+    width: 60vw;
+    height: auto;
+    /* margin: 10px; */
+  }
+  .description {
+    padding: 0px;
+  }
 }
