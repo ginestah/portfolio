@@ -37,6 +37,12 @@ export default function Project(props) {
         <h2 className="project-name">{name}</h2>
         <img className="image-main" src={pics[0]} alt="" />
         <div className="image-thumbnail-box">{imgJSX}</div>
+
+        {smallerThan500 && (
+          <p className="description">Description: {description}</p>
+        )}
+      </div>
+      <div>
         <p>
           <a
             className="project-link"
@@ -57,16 +63,10 @@ export default function Project(props) {
             Code Repository
           </a>
         </p>
-        {smallerThan500 && (
-          <p className="description">Description: {description}</p>
-        )}
-      </div>
-      <div>
         <p className="stack">Stack: {stack}</p>
         {largerThan500 && (
           <>
             <p className="description">Description: {description}</p>
-            <img className="image-main" src={pics[1]} alt="" />
           </>
         )}
       </div>

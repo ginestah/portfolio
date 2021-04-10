@@ -5,7 +5,7 @@ import { ThemeProvider } from "styled-components";
 import Layout from "./shared/Layout/Layout";
 import AboutMe from "./screens/AboutMe/AboutMe";
 import Projects from "./screens/Projects";
-import Contact from "./screens/Contact";
+import Contact from "./screens/Contact/Contact";
 import { GlobalStyles } from "./styles/GlobalStyles";
 import { lightTheme, darkTheme } from "./styles/Themes";
 import { useDarkMode } from "./styles/useDarkMode";

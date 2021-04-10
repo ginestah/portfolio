@@ -49,7 +49,6 @@ export default function Contact() {
           handleSend(formData);
         }}
       >
-        <h1>Shoot me a message right here.</h1>
         <input
           onChange={handleChange}
           name="name"
