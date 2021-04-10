@@ -30,17 +30,33 @@ export default function Project(props) {
 
   return (
     <div className="project-card">
-      <h2 className="project-name">{name}</h2>
-      <img className="image-main" src={pics[0]} alt="" />
-      <div className="image-thumbnail-box">{imgJSX}</div>
+      <div className="image-container">
+        <h2 className="project-name">{name}</h2>
+        <img className="image-main" src={pics[0]} alt="" />
+        <div className="image-thumbnail-box">{imgJSX}</div>
+        <p>
+          <a
+            className="project-link"
+            href={site}
+            target="_blank"
+            rel="noreferrer"
+          >
+            Live Site
+          </a>
+        </p>
+        <p>
+          <a
+            className="project-link"
+            href={repo}
+            target="_blank"
+            rel="noreferrer"
+          >
+            Code Repository
+          </a>
+        </p>
+      </div>
       <p className="description">{description}</p>
       <p className="description">Stack: {stack}</p>
-      <a href={site} target="_blank" rel="noreferrer">
-        Live Site
-      </a>{" "}
-      <a href={repo} target="_blank" rel="noreferrer">
-        Code Repository
-      </a>
     </div>
   );
 }

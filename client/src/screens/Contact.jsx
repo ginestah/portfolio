@@ -1,9 +1,8 @@
 import "./Contact.css";
 import axios from "axios";
 import { useState } from "react";
-import { useHistory } from "react-router-dom";
 export default function Contact() {
-  const history = useHistory();
+  const [thanks, setThanks] = useState(false);
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -25,45 +24,60 @@ export default function Contact() {
       [name]: value,
     }));
   }
+
   function handleSend(formData) {
     post(formData);
-    history.push("/");
+    setFormData({
+      name: "",
+      email: "",
+      message: "",
+    });
+    setThanks(true);
   }
   return (
-    <form
-      className="mobile-form"
-      onSubmit={(e) => {
-        e.preventDefault();
-        handleSend(formData);
-      }}
-    >
-      <h1>Shoot me a message right here.</h1>
-      <input
-        onChange={handleChange}
-        name="name"
-        placeholder="Name"
-        type="text"
-        value={name}
-      />
-      <br />
-      <input
-        onChange={handleChange}
-        name="email"
-        placeholder="Email"
-        type="text"
-        value={email}
-      />
-      <br />
-      <textarea
-        className="mobile-text-area"
-        onChange={handleChange}
-        name="message"
-        cols="30"
-        rows="10"
-        value={message}
-        placeholder="Whats on your mind?"
-      ></textarea>
-      {email === "" ? null : <button>Send It!</button>}
-    </form>
+    <div className="form-container">
+      <main>
+        <p>You can contact me at</p>
+
+        <li>Ginestah@gmail.com</li>
+        <p>or submit the form below and I will get back to you ASAP</p>
+      </main>
+      <form
+        className="mobile-form"
+        onSubmit={(e) => {
+          e.preventDefault();
+          handleSend(formData);
+        }}
+      >
+        <h1>Shoot me a message right here.</h1>
+        <input
+          onChange={handleChange}
+          name="name"
+          placeholder="Name"
+          type="text"
+          value={name}
+        />
+        <br />
+        <input
+          onChange={handleChange}
+          name="email"
+          placeholder="Email"
+          type="text"
+          value={email}
+        />
+        <br />
+        <textarea
+          className="mobile-text-area"
+          onChange={handleChange}
+          name="message"
+          cols="30"
+          rows="10"
+          value={message}
+          placeholder="Whats on your mind?"
+        ></textarea>
+        <button className="send">Send It!</button>
+      </form>
+      {thanks && <p>Thank you! I will get back to you soon</p>}
+    </div>
   );
 }

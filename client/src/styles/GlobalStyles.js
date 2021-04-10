@@ -31,4 +31,13 @@ footer {
   font-size: 1.2em;
   background-color: #8a9496;
 }
+.project-link{
+  color: ${({ theme }) => theme.text};
+}
+form{
+background-color:${({ theme }) => theme.background};
+}
+.send{
+  background-color:${({ theme }) => theme.button}
+}
   `;
