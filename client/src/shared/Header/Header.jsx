@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import { useState } from "react";
 // import { useMediaPredicate } from "react-media-hook";
 
-import Modal from "../../components/Modal";
 export default function Header(props) {
   // const smallerThan600 = useMediaPredicate("(max-width: 600px)");
 
