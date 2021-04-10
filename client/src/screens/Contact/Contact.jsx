@@ -37,9 +37,7 @@ export default function Contact() {
   return (
     <div className="form-container">
       <main>
-        <p>You can contact me at</p>
-
-        <li>Ginestah@gmail.com</li>
+        <p>{`You can contact me at { Ginestah@gmail.com }`} </p>
         <p>or submit the form below and I will get back to you ASAP</p>
       </main>
       <form
