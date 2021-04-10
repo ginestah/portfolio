@@ -5,7 +5,7 @@ import "./Layout.css";
 export default function Layout(props) {
   return (
     <div className="layout">
-      <Header />
+      <Header themeToggler={props.themeToggler} />
       <div className="children">{props.children}</div>
       <Footer />
     </div>

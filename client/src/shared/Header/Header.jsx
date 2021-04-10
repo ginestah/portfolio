@@ -4,7 +4,7 @@ import { useState } from "react";
 import { useMediaPredicate } from "react-media-hook";
 
 import Modal from "../../components/Modal";
-export default function Header() {
+export default function Header(props) {
   const smallerThan600 = useMediaPredicate("(max-width: 600px)");
 
   const [open, handleOpen] = useState(false);
@@ -16,6 +16,11 @@ export default function Header() {
             Huckleberry Ginesta <br />
             <div className="sub-heading"> Software Engineer</div>
           </Link>
+          {smallerThan600 ? null : (
+            <button className="theme-toggle" onClick={props.themeToggler}>
+              Change Theme
+            </button>
+          )}
           <div className="link-container">
             <Link className="section-link" to="/projects">
               Projects
