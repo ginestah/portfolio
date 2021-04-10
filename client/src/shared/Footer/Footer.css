@@ -1,4 +1,4 @@
-footer {
+/* footer {
   position: fixed;
   bottom: 0;
   left: 0;
@@ -14,11 +14,4 @@ footer {
 footer a {
   text-decoration: none;
   color: #fefced;
-}
-.change-theme {
-  color: #fefced;
-  text-decoration: none;
-
-  cursor: pointer;
-  padding: 2px;
-}
+} */
