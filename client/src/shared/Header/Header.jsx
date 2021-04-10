@@ -16,11 +16,7 @@ export default function Header(props) {
             Huckleberry Ginesta <br />
             <div className="sub-heading"> Software Engineer</div>
           </Link>
-          {smallerThan600 ? null : (
-            <button className="theme-toggle" onClick={props.themeToggler}>
-              Change Theme
-            </button>
-          )}
+
           <div className="link-container">
             <Link className="section-link" to="/projects">
               Projects

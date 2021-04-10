@@ -15,3 +15,10 @@ footer a {
   text-decoration: none;
   color: #fefced;
 }
+.change-theme {
+  color: #fefced;
+  text-decoration: none;
+
+  cursor: pointer;
+  padding: 2px;
+}
