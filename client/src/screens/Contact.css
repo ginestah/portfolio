@@ -38,4 +38,5 @@ textarea {
   resize: vertical;
   box-sizing: border-box;
   font-size: 20px;
+  resize: none;
 }
