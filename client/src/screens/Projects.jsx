@@ -6,8 +6,7 @@ export default function Projects() {
       name: "A Day in Space",
       description:
         "Access photo of the day from NASA API to display the photo of a users chosen day, as well as a description of the photo.",
-      stack:
-        "Html and CSS, with vanilla JS using ajax requests to an external API.",
+      stack: ["Javascript", "HTML", "CSS Flexbox", "Ajax", "External API"],
       site: "https://ginestah.github.io/A-day-in-Space/",
       repo: "https://github.com/ginestah/A-day-in-Space",
       photos: [
@@ -19,8 +18,7 @@ export default function Projects() {
       name: "Spotters",
       description:
         "Spotter is a bouldering library for climbers. View problems that others have posted, the difficulty of the climb, how they rated it, where it was located, and a description of the climb/beta(best moves to finish the climb). Rate the climbs if you've finished them, and search for climbs in a specific area.",
-      stack:
-        "React SPA frontend, utilizing airtable API to store and retrieve records, full CRUD capabilities, but delete left off to retain records",
+      stack: ["React.js", "External API", "CSS Flexbox", "Postman API testing"],
       site: "https://spotters.netlify.app/",
       repo: "https://github.com/ginestah/spotter",
       photos: [
@@ -32,8 +30,7 @@ export default function Projects() {
       name: "Reventa",
       description:
         "Community furniture resale app, users are able to add postings, edit/delete their own postings but not others. If visiting as a guest you can view postings but in order to see contact info for a seller or make a listing you must create an account or log into an existing account.",
-      stack:
-        "Full MERN stack app, React frontend, Express backend, with full CRUD and auth, and MongoDB for record storage. Lead the github repo managing pull requests and merge conflicts for a team of 3.",
+      stack: ["React.js", "Express.js", "MongoDB", "Node", "CSS Flexbox"],
       site: "https://reventa.netlify.app/",
       repo: "https://github.com/ginestah/reventa",
       photos: [
@@ -46,8 +43,7 @@ export default function Projects() {
       name: "CrashPad",
       description:
         "CrashPad is a community house sharing experience for climbers, and outdoorsy people. The goal is to create a space where you can find a place to crash around the country when visiting crags outside of your local area. Users will have the ability to make an account, and add their home as a CrashPad for others to crash at. Users can search for a crashpad by location, and contact the host to negotiate a time to stay and for how long, pricing can be negotiated, or trade for cooking/cleaning or work",
-      stack:
-        "React SPA frontend, with Rails backend, and PostgreSQL database. Full CRUD and Auth, with RESTful API backend.",
+      stack: ["React.js", "Ruby on Rails", "postgreSQL", "CSS Flexbox"],
       site: "https://crashpad.netlify.app/",
       repo: "https://github.com/ginestah/CrashPad",
       photos: [

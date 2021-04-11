@@ -7,6 +7,7 @@ export const GlobalStyles = createGlobalStyle`
   }
   .project-card{
     border: 1px solid ${({ theme }) => theme.text};
+    width:100vw;
   }
   
   footer a {

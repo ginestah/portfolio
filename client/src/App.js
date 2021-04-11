@@ -16,11 +16,17 @@ function App(props) {
   return (
     <ThemeProvider theme={themeMode}>
       <GlobalStyles />
-      <div className="App">
+      <div className="App" id="outer-container">
         <Layout themeToggler={themeToggler}>
           <Route exact path="/" component={AboutMe} />
           <Route exact path="/contact" component={Contact} />
           <Route exact path="/projects" component={Projects} />
+          <Route exact path="/resume">
+            <iframe
+              title="resume"
+              src="https://drive.google.com/file/d/1AARrsN0-mih6aZSI4WQzuZX1JwJbINev/preview"
+            ></iframe>
+          </Route>
         </Layout>
       </div>
     </ThemeProvider>

@@ -27,3 +27,14 @@ body {
   transform: scale(0.9);
   transition: opacity 300ms, transform 300ms;
 }
+iframe {
+  width: 90vw;
+  height: 60vh;
+}
+
+@media (min-width: 400px) {
+  iframe {
+    width: 60vw;
+    height: 80vh;
+  }
+}

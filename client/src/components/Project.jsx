@@ -63,11 +63,16 @@ export default function Project(props) {
             Code Repository
           </a>
         </p>
-        <p className="stack">Stack: {stack}</p>
+        <div className="list-container">
+          <p className="stack">Stack:</p>
+          <ul>
+            {stack.map((tech) => (
+              <li>{tech}</li>
+            ))}
+          </ul>
+        </div>
         {largerThan500 && (
-          <>
-            <p className="description">Description: {description}</p>
-          </>
+          <p className="description">Description: {description}</p>
         )}
       </div>
     </div>
