@@ -48,6 +48,7 @@ export default function Contact() {
         }}
       >
         <input
+          required
           onChange={handleChange}
           name="name"
           placeholder="Name"
@@ -56,6 +57,7 @@ export default function Contact() {
         />
         <br />
         <input
+          required
           onChange={handleChange}
           name="email"
           placeholder="Email"
@@ -64,6 +66,7 @@ export default function Contact() {
         />
         <br />
         <textarea
+          required
           className="mobile-text-area"
           onChange={handleChange}
           name="message"
