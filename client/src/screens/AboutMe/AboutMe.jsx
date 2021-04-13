@@ -3,10 +3,16 @@ import "./AboutMe.css";
 export default function AboutMe() {
   return (
     <div className="about-me-container">
+      <img
+        className="headshot"
+        src="https://media-exp1.licdn.com/dms/image/C4D03AQGxSMKgtv9cyw/profile-displayphoto-shrink_800_800/0/1618085204744?e=1623888000&v=beta&t=iCZicahOAm5VWtQZNCbch3vh6lgn2TuqeeCLXo-K2po"
+        alt="headshot"
+      />
       <h1 className="title">Hey! My name is Huck.</h1>
       <h2 className="sub-title">
         I am a Software Engineer and Climbing Instructor.
       </h2>
+
       <main className="about-me">
         With a B.S. in Conservation Biology and a background in climbing
         instruction, I bring a detail-oriented, driven, and communicative

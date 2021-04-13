@@ -37,3 +37,7 @@
 ul {
   align-self: center;
 }
+.headshot {
+  width: 350px;
+  border: 2px solid #fefefe;
+}

@@ -9,6 +9,10 @@ export const GlobalStyles = createGlobalStyle`
     border: 1px solid ${({ theme }) => theme.text};
     width:100vw;
   }
+  .headshot{
+    width:350px;
+    border: 2px solid ${({ theme }) => theme.text}
+  }
   
   footer a {
   text-decoration: none;
@@ -40,5 +44,12 @@ background-color:${({ theme }) => theme.background};
 }
 .send{
   background-color:${({ theme }) => theme.button}
+}
+@media (max-width: 400px) {
+  .headshot {
+    width: 200px;
+    margin: 5px;
+    /* align-self: flex-start; */
+  }
 }
   `;
