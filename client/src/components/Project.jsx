@@ -50,7 +50,7 @@ export default function Project(props) {
             target="_blank"
             rel="noreferrer"
           >
-            Live Site
+            <button className="send">Live Site</button>
           </a>
         </p>
         <p>
@@ -60,7 +60,7 @@ export default function Project(props) {
             target="_blank"
             rel="noreferrer"
           >
-            Code Repository
+            <button className="send">Code Repository</button>
           </a>
         </p>
         <div className="list-container">

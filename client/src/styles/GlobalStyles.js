@@ -7,7 +7,7 @@ export const GlobalStyles = createGlobalStyle`
   }
   .project-card{
     border: 1px solid ${({ theme }) => theme.text};
-    width:100vw;
+   
   }
   .headshot{
     width:350px;
@@ -43,13 +43,25 @@ form{
 background-color:${({ theme }) => theme.background};
 }
 .send{
-  background-color:${({ theme }) => theme.button}
+  background-color:${({ theme }) => theme.button};
+  max-width:20vw;
+}
+.send:hover{
+  transform:scale(1.05);
+  cursor: pointer;
+
 }
 @media (max-width: 400px) {
   .headshot {
     width: 200px;
     margin: 5px;
     /* align-self: flex-start; */
+  }
+  .project-card{
+     /* width:100vw; */
+  }
+  .send{
+    max-width:25vw;
   }
 }
   `;
