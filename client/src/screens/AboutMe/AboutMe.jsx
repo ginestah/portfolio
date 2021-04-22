@@ -24,9 +24,9 @@ export default function AboutMe() {
         <br />
         <br /> With a B.S. in Conservation Biology and a background in climbing
         instruction, I bring a detail-oriented, driven, and communicative
-        personality to the table. I leverage my experience in teaching and
-        science to break down information, teach complex ideas and effectively
-        test and troubleshoot.
+        personality to software development. I leverage my experience in
+        teaching and science to break down information, teach complex ideas and
+        effectively test and troubleshoot.
         <br />
       </main>
     </div>
