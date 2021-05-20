@@ -12,8 +12,8 @@ export default function AboutMe() {
       <h2 className="sub-title">I am a Software Engineer</h2>
 
       <main className="about-me">
-        My Stack: React, Javascript, Ruby, Ruby on Rails, Express, HTML, CSS,
-        MongoDB, PostgreSQL, Jest, and Rspec.
+        Technical Skills: React, Javascript, Ruby, Ruby on Rails, Express, HTML,
+        CSS, MongoDB, PostgreSQL, Jest, and Rspec.
         <br />
         <br />I am looking for a position with a environmentally conscious
         business with a fun engaging culture. I have an eagerness to learn new
