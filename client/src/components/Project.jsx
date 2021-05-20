@@ -64,8 +64,8 @@ export default function Project(props) {
           </a>
         </p>
         <div className="list-container">
-          <p className="stack">Stack:</p>
           <ul>
+            <p className="stack">Stack:</p>
             {stack.map((tech) => (
               <li>{tech}</li>
             ))}
