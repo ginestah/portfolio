@@ -5,7 +5,7 @@ export default function AboutMe() {
     <div className="about-me-container">
       <img
         className="headshot"
-        src="https://media-exp1.licdn.com/dms/image/C4D03AQGxSMKgtv9cyw/profile-displayphoto-shrink_800_800/0/1618085204744?e=1623888000&v=beta&t=iCZicahOAm5VWtQZNCbch3vh6lgn2TuqeeCLXo-K2po"
+        src="https://res.cloudinary.com/dpbzq29kr/image/upload/v1623975374/Portfolio/headshot_oahbh0.jpg"
         alt="headshot"
       />
       <h1 className="title">Hey! My name is Huck.</h1>
@@ -29,6 +29,7 @@ export default function AboutMe() {
         effectively test and troubleshoot.
         <br />
       </main>
+      <button onClick={() => console.log("clicked")}>click</button>
     </div>
   );
 }
