@@ -29,7 +29,6 @@ export default function AboutMe() {
         effectively test and troubleshoot.
         <br />
       </main>
-      <button onClick={() => console.log("clicked")}>click</button>
     </div>
   );
 }
