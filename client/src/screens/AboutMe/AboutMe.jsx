@@ -9,20 +9,22 @@ export default function AboutMe() {
         alt="headshot"
       />
       <h1 className="title">Hey! My name is Huck.</h1>
-      <h2 className="sub-title">I am a Software Engineer</h2>
 
       <main className="about-me">
-        Technical Skills: React, Javascript, Ruby, Ruby on Rails, Express, HTML,
-        CSS, MongoDB, PostgreSQL, Jest, and Rspec.
-        <br />
-        <br />I am a software engineer at
-        <a href="" ref="noreferrer" target="_blank">
-          Meltwater, where I develop scalable, monitored, cloud-based AWS
-          architecture utilizing resources including Lambda, API Gateway, SQS,
-          DynamoDB, S3, CloudWatch, CI. Build front-end applications with
-          Angular, React, and framework-agnostic components. I am a team player
-          who loves pair programming and working to meet goals.
-        </a>
+        <br />I am a software engineer at{" "}
+        <a
+          target="_blank"
+          style={{ textDecoration: "none", color: "black" }}
+          rel="noreferrer"
+          href="https://www.meltwater.com/en"
+        >
+          Meltwater
+        </a>{" "}
+        , where I develop scalable, monitored, cloud-based AWS architecture
+        utilizing resources including Lambda, API Gateway, SQS, DynamoDB, S3,
+        CloudWatch, CI. Build front-end applications with Angular, React, and
+        framework-agnostic components. I am a team player who loves pair
+        programming and working to meet goals.
         <br />
         <br /> With a B.S. in Conservation Biology and a background in climbing
         instruction, I bring a detail-oriented, driven, and communicative
