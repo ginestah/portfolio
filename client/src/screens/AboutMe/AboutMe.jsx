@@ -15,12 +15,14 @@ export default function AboutMe() {
         Technical Skills: React, Javascript, Ruby, Ruby on Rails, Express, HTML,
         CSS, MongoDB, PostgreSQL, Jest, and Rspec.
         <br />
-        <br />I am looking for a position with a environmentally conscious
-        business with a fun engaging culture. I have an eagerness to learn new
-        tech, and the proven ability to do so effectively, and quickly. At
-        General Assemblies 12 week Software Engineering Immersive program I was
-        able to learn a multitude of tech stacks, as well as data structure and
-        algorithm fundamentals.
+        <br />I am a software engineer at
+        <a href="" ref="noreferrer" target="_blank">
+          Meltwater, where I develop scalable, monitored, cloud-based AWS
+          architecture utilizing resources including Lambda, API Gateway, SQS,
+          DynamoDB, S3, CloudWatch, CI. Build front-end applications with
+          Angular, React, and framework-agnostic components. I am a team player
+          who loves pair programming and working to meet goals.
+        </a>
         <br />
         <br /> With a B.S. in Conservation Biology and a background in climbing
         instruction, I bring a detail-oriented, driven, and communicative
