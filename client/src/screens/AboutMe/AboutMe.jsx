@@ -18,7 +18,7 @@ export default function AboutMe() {
           rel="noreferrer"
           href="https://www.meltwater.com/en"
         >
-          Meltwater</a>{" "} , where I develop scalable, monitored, cloud-based AWS architecture
+          Meltwater</a>, where I develop scalable, monitored, cloud-based AWS architecture
         utilizing resources including Lambda, API Gateway, SQS, DynamoDB, S3,
         CloudWatch, CI. Build front-end applications with Angular, React, and
         framework-agnostic components. I am a team player who loves pair
